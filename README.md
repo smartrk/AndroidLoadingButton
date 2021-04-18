@@ -59,6 +59,6 @@ Animated Material Progress Button with manage multiple functionality.
 
 ```sh
 dependencies { 
-        implementation 'com.github.smartrk:ProgressButton:1.0' 
+        implementation 'com.github.smartrk:ProgressButton:1.1' 
 }
 ```
