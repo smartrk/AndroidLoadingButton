@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             override fun onClick(var1: View?) {
                 btnLogin.progressAnimation()
                 Handler(Looper.getMainLooper()).postDelayed({
-                    btnLogin.errorAnimation()
+                    btnLogin.stopAnimation()
                     Handler(Looper.getMainLooper()).postDelayed({
 
                     },2000)

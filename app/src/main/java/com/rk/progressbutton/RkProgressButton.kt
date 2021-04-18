@@ -73,7 +73,9 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
         appCompatTextView?.text = btnText
 
         clickView!!.setOnClickListener {
-            event?.onClick(it)
+            if (isClicable) {
+                event?.onClick(it)
+            }
         }
 
         inItAttribute(attrs)
@@ -109,11 +111,11 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
                 errorText = it
             }
 
-            attrsArray.getColor(R.styleable.RkProgressButton_textColor,-1)?.let {
+            attrsArray.getColor(R.styleable.RkProgressButton_textColor, -1)?.let {
                 textColor = it
             }
 
-            attrsArray.getDimension(R.styleable.RkProgressButton_customHeight,-1f)?.let {
+            attrsArray.getDimension(R.styleable.RkProgressButton_customHeight, -1f)?.let {
                 customHeight = it
             }
 
@@ -123,6 +125,7 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
         }
     }
 
+    var isClicable = true
     var doneImage: Drawable? = null
     var errorImage: Drawable? = null
     var backgroungColor: Int? = null
@@ -151,6 +154,7 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
 
 
     fun progressAnimation() {
+        isClicable = false
         mainLay!!.setTransition(R.id.start, R.id.end)
         mainLay!!.transitionToEnd()
         currentId = R.id.end
@@ -169,6 +173,7 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
         Handler(Looper.getMainLooper()).postDelayed({
             mainLay!!.setTransition(R.id.done, R.id.start)
             mainLay!!.transitionToEnd()
+            isClicable = true
         }, 1500)
     }
 
@@ -189,6 +194,7 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
             mainLay!!.setTransition(R.id.done, R.id.start)
             mainLay!!.transitionToEnd()
             currentId = R.id.start
+            isClicable = true
         }, 1500)
     }
 
@@ -197,5 +203,6 @@ class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int
         mainLay!!.setTransition(currentId, R.id.start)
         mainLay!!.transitionToEnd()
         currentId = R.id.start
+        isClicable = true
     }
 }
