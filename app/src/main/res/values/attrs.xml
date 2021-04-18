@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RkProgressButton">
+        <attr name="doneDrawable" format="reference"/>
+        <attr name="errorDrawable" format="reference"/>
+        <attr name="buttonText" format="string" />
+        <attr name="buttonErrorText" format="string" />
+        <attr name="buttonColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="customHeight" format="dimension" />
+    </declare-styleable>
+</resources>

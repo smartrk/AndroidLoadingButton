@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/mainLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/rk_progress_scene">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/buttonCons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:clickable="true"
+                android:elevation="5dp"
+                android:focusable="true"
+                android:minWidth="40dp"
+                android:minHeight="40dp"
+                android:src="@drawable/btn_drawable"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:indeterminateTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBg"
+            app:layout_constraintEnd_toEndOf="@+id/btnBg"
+            app:layout_constraintStart_toStartOf="@+id/btnBg"
+            app:layout_constraintTop_toTopOf="@+id/btnBg" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shapeableImageView6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBg"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="@+id/btnBg"
+            app:layout_constraintStart_toStartOf="@+id/btnBg"
+            app:layout_constraintTop_toTopOf="@+id/btnBg"
+            app:srcCompat="@drawable/ic_done_img" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBg"
+            app:layout_constraintEnd_toEndOf="@+id/btnBg"
+            app:layout_constraintStart_toStartOf="@+id/btnBg"
+            app:layout_constraintTop_toTopOf="@+id/btnBg" />
+
+        <View
+            android:id="@+id/clickView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBg"
+            app:layout_constraintEnd_toEndOf="@+id/btnBg"
+            app:layout_constraintStart_toStartOf="@+id/btnBg"
+            app:layout_constraintTop_toTopOf="@+id/btnBg" />
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</merge>
