@@ -2,7 +2,6 @@ package com.rk.progressbutton
 
 import android.content.Context
 import android.content.res.ColorStateList
-import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.os.Handler
 import android.os.Looper
@@ -11,9 +10,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.content.res.AppCompatResources.getDrawable
-import androidx.core.content.ContextCompat
-import androidx.core.graphics.drawable.DrawableCompat
-import androidx.core.view.ViewCompat
 import androidx.core.widget.ImageViewCompat
 import kotlinx.android.synthetic.main.rk_progress.view.*
 import kotlin.math.roundToInt
@@ -22,7 +18,7 @@ import kotlin.math.roundToInt
 /**
  * Created by Rahul Kansara (Rk) on 18-Apr-21,  rahul.kansara10@gmail.com
  */
-open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
+class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
     LinearLayout(context, attrs, defStyleAttr), View.OnClickListener {
 
     init {
