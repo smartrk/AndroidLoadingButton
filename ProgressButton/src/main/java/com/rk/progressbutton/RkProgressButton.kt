@@ -18,7 +18,7 @@ import kotlin.math.roundToInt
 /**
  * Created by Rahul Kansara (Rk) on 18-Apr-21,  rahul.kansara10@gmail.com
  */
-class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
+open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
     LinearLayout(context, attrs, defStyleAttr), View.OnClickListener {
 
     init {
