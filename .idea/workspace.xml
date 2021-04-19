@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_4_xl" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="915a5f37-f8a6-4c58-a0ba-bcda837c3898" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[100.79.101.247:5555]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rahul Kansara &lt;rahul.kansara10@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rLDHqPdyaidWaiYdlHzS7JIasL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewE:/Developing/Final APP/RkProgressButton/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt_SELECTED" value="RkProgressButton" />
+    <property name="android-custom-viewE:/Developing/Final APP/RkProgressButton/app/src/main/java/com/rk/progressbutton/RkProgressButton.kt_SELECTED" value="RkProgressButton" />
+    <property name="android-custom-viewE:/Developing/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="multi-representation-previewE:/Developing/Final APP/RkProgressButton/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Developing/Final APP/RkProgressButton/app/src/main/java/com/rk/progressbutton/RkProgressButton.kt_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Developing/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.rk.progressbutton" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.rk.progressbutton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Developing\Final APP\RkProgressButton\app\src\main\res\font" />
+      <recent name="E:\Developing\Final APP\RkProgressButton\app\src\main\res" />
+      <recent name="E:\Developing\Final APP\RkProgressButton\app\src\main\res\drawable" />
+      <recent name="E:\Developing\Final APP\RkProgressButton\ProgressButton\src\androidTest\res\layout" />
+      <recent name="E:\Developing\Final APP\RkProgressButton\ProgressButton\src\androidTest\res\values" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="RkProgressButton.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="915a5f37-f8a6-4c58-a0ba-bcda837c3898" name="Default Changelist" comment="" />
+      <created>1618746391137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618746391137</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Commit.">
+      <created>1618764946591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618764946592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit.">
+      <created>1618766202671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618766202671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Commit.">
+      <created>1618766353014</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618766353014</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Commit.">
+      <created>1618768263682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618768263682</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Commit.">
+      <created>1618768671781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618768671781</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First Commit.">
+      <created>1618769786860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618769786860</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First Commit.">
+      <created>1618769962218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618769962218</updated>
+    </task>
+    <task id="LOCAL-00008" summary="First Commit.">
+      <created>1618770175190</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618770175190</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="158" y="87" key="#PSD" timestamp="1618769697597">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="158" y="87" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1618769697597" />
+    <state x="431" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1618842365987">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="431" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1618842365987" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618769468687">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1618769468687" />
+    <state x="351" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1618768934139">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1618768934139" />
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog" timestamp="1618843361939">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1618843361939" />
+    <state x="484" y="126" key="AndroidCreateXmlResourceDialog" timestamp="1618841384605">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="484" y="126" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1618841384605" />
+    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1618770173488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618770173488" />
+    <state x="421" y="67" key="FileChooserDialogImpl" timestamp="1618855446553">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="67" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618855446553" />
+    <state width="1236" height="328" key="GridCell.Tab.0.bottom" timestamp="1618849787264">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="328" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
+    <state width="1236" height="328" key="GridCell.Tab.0.center" timestamp="1618849787264">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="328" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
+    <state width="1236" height="328" key="GridCell.Tab.0.left" timestamp="1618849787262">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="328" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618849787262" />
+    <state width="1236" height="328" key="GridCell.Tab.0.right" timestamp="1618849787264">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="328" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1618770181944">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618770181943" />
+    <state x="455" y="118" key="chooseDestDirectoryDialog" timestamp="1618843179263">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="455" y="118" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1618843179263" />
+    <state x="94" y="94" width="1093" height="493" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1618855519898">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="94" y="94" width="1093" height="493" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1618855519898" />
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1618846867391">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1618846867391" />
+    <state x="372" y="0" key="psd.add.module.dependency.panel.dimension" timestamp="1618769695251">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="0" key="psd.add.module.dependency.panel.dimension/0.0.1280.680@0.0.1280.680" timestamp="1618769695251" />
+    <state x="297" y="150" key="run.anything.popup" timestamp="1618848465521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="150" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1618848465521" />
+    <state x="296" y="-8" width="672" height="676" key="search.everywhere.popup" timestamp="1618848751918">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="296" y="-8" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1618848751918" />
+  </component>
+</project>
