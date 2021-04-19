@@ -1,24 +1,29 @@
 ![button_img](https://user-images.githubusercontent.com/20436225/115279258-1a00e580-a164-11eb-84ea-cb639f4be457.gif)
 
 
-# Progess Button
+# Progress Button
 ## 
 
-Animated Material Progress Button with manage multiple functionality.
+Animated Material Progress Button with multiple functionality.
 
 - Progress Animation
 - Error Animation
-- Successfull Animation
-- Custom Button Color
-- Custom Progress Color
-- Custom Sucessfull Icon
-- Custom Error Icon
+- Success Animation
 
 
 ## Features
-- No Aditional And Extra Code Required
+- Custom Button Color
+- Custom Progress Color
+- Custom Success Icon
+- Custom Error Icon
+- Custom Button Success Color
+- Custom Button Error Color
+- Change Text Color
+- Custom Font Style
+
+- No Additional Code Required
 - Fully Customizable
-- Easy to implement
+- Easy to Implement
 
 ## Code Sample
  - Xml
@@ -35,11 +40,11 @@ Animated Material Progress Button with manage multiple functionality.
         app:textColor="@color/white" />
 ```
 
- * Start progress animation  
+ * Start Progress Animation  
  ```sh
  progressButton.progressAnimation()
 ```
-* Suceessfull Animation
+* Success Animation
  ```sh
  progressButton.doneAnimation()
 ```
