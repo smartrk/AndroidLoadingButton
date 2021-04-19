@@ -1,4 +1,4 @@
-![button_img](https://user-images.githubusercontent.com/20436225/115279258-1a00e580-a164-11eb-84ea-cb639f4be457.gif 100x500)
+![button_img](https://user-images.githubusercontent.com/20436225/115279258-1a00e580-a164-11eb-84ea-cb639f4be457.gif)
 
 
 # Progess Button
