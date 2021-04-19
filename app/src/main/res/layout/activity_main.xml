@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/tvLabel"
+            android:layout_marginTop="50dp"
+            android:text="Defult Button" />
+
+
+        <com.rk.progressbutton.RkProgressButton
+            android:id="@+id/defultBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonText="Login" />
+
+        <TextView
+            style="@style/tvLabel"
+            android:text="Change Defult Button Colors" />
+
+
+        <com.rk.progressbutton.RkProgressButton
+            android:id="@+id/defult2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonColor="#FFC107"
+            app:buttonText="Login"
+            app:doneColor="@color/black"
+            app:progressColor="@color/black"
+            app:textColor="@color/black" />
+
+        <TextView
+            style="@style/tvLabel"
+            android:text="Custom Font, Color with Success &amp; Error Text" />
+
+        <com.rk.progressbutton.RkProgressButton
+            android:id="@+id/changeColorBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonColor="#2196F3"
+            app:customFont="@font/bold"
+            app:buttonErrorText="Retry"
+            app:buttonText="Login"
+            app:successText="Login Successfully" />
+
+        <TextView
+            style="@style/tvLabel"
+            android:text="Custom Success &amp; Error Icon" />
+
+        <com.rk.progressbutton.RkProgressButton
+            android:id="@+id/iconBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonColor="#4CAF50"
+            app:buttonErrorText="Retry"
+            app:buttonText="Login"
+            app:doneDrawable="@drawable/ic_done_icon"
+            app:errorDrawable="@drawable/ic_error_icon"
+            app:successText="Login Successfully" />
+
+        <TextView
+            style="@style/tvLabel"
+            android:text="Change Success &amp; Error Button Color" />
+
+        <com.rk.progressbutton.RkProgressButton
+            android:id="@+id/heightBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonColor="#673AB7"
+            app:buttonErrorColor="#F44336"
+            app:buttonErrorText="Retry"
+            app:buttonSucessColor="#8BC34A"
+            app:buttonText="Login"
+            app:doneColor="@color/white"
+            app:progressColor="@color/white"
+            app:successText="Login Successfully"
+            app:textColor="@color/white" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RkProgressButton.iml" filepath="$PROJECT_DIR$/.idea/RkProgressButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RkProgressButton.iml" filepath="$PROJECT_DIR$/.idea/modules/RkProgressButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProgressButton/RkProgressButton.ProgressButton.iml" filepath="$PROJECT_DIR$/.idea/modules/ProgressButton/RkProgressButton.ProgressButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RkProgressButton.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RkProgressButton.app.iml" />
     </modules>
   </component>
 </project>
