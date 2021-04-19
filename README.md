@@ -1,4 +1,4 @@
-![button_img](https://user-images.githubusercontent.com/20436225/115279258-1a00e580-a164-11eb-84ea-cb639f4be457.gif =250x)
+![button_gif](https://user-images.githubusercontent.com/20436225/115282200-8f21ea00-a167-11eb-89a9-f4da04c4cddf.gif)
 
 
 # Progress Button
