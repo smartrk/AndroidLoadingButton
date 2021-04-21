@@ -33,10 +33,13 @@ Animated Material Progress Button with multiple functionality.
         android:id="@+id/progress_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:buttonColor="@color/red"
         app:buttonErrorText="Retry"
         app:buttonText="Login"
+        app:buttonColor="@color/blue"
+        app:buttonErrorColor="@color/red"
+        app:buttonSucessColor="@color/green"
         app:progressColor="@color/white"
+        app:doneColor="@color/black"
         app:textColor="@color/white" />
 ```
 
@@ -67,6 +70,6 @@ Animated Material Progress Button with multiple functionality.
 
 ```sh
 dependencies { 
-        implementation 'com.github.smartrk:ProgressButton:1.1' 
+        implementation 'com.github.smartrk:ProgressButton:1.2' 
 }
 ```
