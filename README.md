@@ -12,6 +12,7 @@ Animated Material Progress Button with multiple functionality.
 
 
 ## Features
+- Custom Button Drawable
 - Custom Button Color
 - Custom Progress Color
 - Custom Success Icon
@@ -35,6 +36,7 @@ Animated Material Progress Button with multiple functionality.
         android:layout_height="wrap_content"
         app:buttonErrorText="Retry"
         app:buttonText="Login"
+        app:buttonDrawable="@drawable/btn_bg"
         app:buttonColor="@color/blue"
         app:buttonErrorColor="@color/red"
         app:buttonSucessColor="@color/green"
