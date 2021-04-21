@@ -81,8 +81,28 @@
             android:layout_height="wrap_content"
             app:buttonColor="#673AB7"
             app:buttonErrorColor="#F44336"
-            app:buttonErrorText="Retry"
             app:buttonSucessColor="#8BC34A"
+            app:buttonErrorText="Retry"
+            app:buttonText="Login"
+            app:doneColor="@color/white"
+            app:progressColor="@color/white"
+            app:successText="Login Successfully"
+            app:textColor="@color/white" />
+
+        <TextView
+            style="@style/tvLabel"
+            android:text="Custom Button Drawable" />
+
+
+        <com.rk.progressbutton.RkProgressButton
+            android:id="@+id/customeDrawableButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonColor="#673AB7"
+            app:buttonErrorColor="#F44336"
+            app:buttonDrawable="@drawable/btn_bg"
+            app:buttonSucessColor="#8BC34A"
+            app:buttonErrorText="Retry"
             app:buttonText="Login"
             app:doneColor="@color/white"
             app:progressColor="@color/white"

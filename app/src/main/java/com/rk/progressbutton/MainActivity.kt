@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     var changeColorState = false
     var iconState = false
     var heightState = false
+    var customeDrawableButtonState = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -40,6 +41,11 @@ class MainActivity : AppCompatActivity() {
         heightBtn.setOnProgressClickListener({
             heightState = !heightState
             perfomDefultBtn(heightState, heightBtn)
+        })
+
+        customeDrawableButton.setOnProgressClickListener({
+            customeDrawableButtonState = !customeDrawableButtonState
+            perfomDefultBtn(customeDrawableButtonState, customeDrawableButton)
         })
 
 

@@ -14,5 +14,6 @@
         <attr name="doneColor" format="color" />
         <attr name="customHeight" format="dimension" />
         <attr name="customFont" format="reference" />
+        <attr name="buttonDrawable" format="reference" />
     </declare-styleable>
 </resources>

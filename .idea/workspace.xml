@@ -13,13 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="915a5f37-f8a6-4c58-a0ba-bcda837c3898" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/layout/rk_progress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/layout/rk_progress.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/xml/rk_progress_scene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/xml/rk_progress_scene.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -223,12 +235,20 @@
       <option name="project" value="LOCAL" />
       <updated>1618770175190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial Commit.">
+      <created>1618855977000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618855977000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit." />
+    <MESSAGE value="Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
   </component>
   <component name="WindowStateProjectService">
     <state x="158" y="87" key="#PSD" timestamp="1618769697597">
@@ -247,18 +267,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="351" y="132" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1618768934139" />
-    <state x="221" y="95" key="AndroidCreateResourceFileDialog" timestamp="1618843361939">
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog" timestamp="1619023723683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1618843361939" />
-    <state x="484" y="126" key="AndroidCreateXmlResourceDialog" timestamp="1618841384605">
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1619023723683" />
+    <state x="484" y="126" key="AndroidCreateXmlResourceDialog" timestamp="1619023562603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="484" y="126" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1618841384605" />
-    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1618770173488">
+    <state x="484" y="126" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1619023562603" />
+    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1618855974844">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618770173488" />
+    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618855974844" />
     <state x="421" y="67" key="FileChooserDialogImpl" timestamp="1618855446553">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -279,18 +299,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1236" height="328" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1618770181944">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1618855980891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618770181943" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618855980891" />
     <state x="455" y="118" key="chooseDestDirectoryDialog" timestamp="1618843179263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="455" y="118" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1618843179263" />
-    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1618846867391">
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619022620366">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1618846867391" />
+    <state x="289" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1619022620366" />
     <state x="372" y="0" key="psd.add.module.dependency.panel.dimension" timestamp="1618769695251">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

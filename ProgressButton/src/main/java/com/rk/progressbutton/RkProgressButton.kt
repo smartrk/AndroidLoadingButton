@@ -3,7 +3,6 @@ package com.rk.progressbutton
 import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
-import android.graphics.fonts.Font
 import android.os.Handler
 import android.os.Looper
 import android.util.AttributeSet
@@ -40,12 +39,18 @@ open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr
         val view = LayoutInflater.from(context).inflate(R.layout.rk_progress, this, true)
 //        setOnClickListener(this)
 
-        backgroungColor?.let {
-            if (it != -1) {
-                ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
+        if (buttonImage == null) {
+            backgroungColor?.let {
+                if (it != -1) {
+                    ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
+                }
             }
         }
 
+
+        buttonImage?.let {
+            buttonCons?.setImageDrawable(it)
+        }
 
         progressColor?.let {
             if (it != -1) {
@@ -143,8 +148,12 @@ open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr
                 successText = it
             }
 
-            attrsArray.getResourceId(R.styleable.RkProgressButton_customFont,-1)?.let {
+            attrsArray.getResourceId(R.styleable.RkProgressButton_customFont, -1)?.let {
                 fontFamily = it
+            }
+
+            attrsArray.getDrawable(R.styleable.RkProgressButton_buttonDrawable)?.let {
+                buttonImage = it
             }
 
 
@@ -155,6 +164,7 @@ open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr
 
     var isClicable = true
     var doneImage: Drawable? = null
+    var buttonImage: Drawable? = null
     var errorImage: Drawable? = null
 
     var backgroungColor: Int? = null
