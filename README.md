@@ -1,4 +1,4 @@
-![button_gif](https://user-images.githubusercontent.com/20436225/115282200-8f21ea00-a167-11eb-89a9-f4da04c4cddf.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/20436225/115594260-2798a580-a2f3-11eb-81a5-fb44768a3622.gif)
 
 
 # Progress Button
@@ -12,6 +12,7 @@ Animated Material Progress Button with multiple functionality.
 
 
 ## Features
+- Custom Button Drawable
 - Custom Button Color
 - Custom Progress Color
 - Custom Success Icon
@@ -35,6 +36,7 @@ Animated Material Progress Button with multiple functionality.
         android:layout_height="wrap_content"
         app:buttonErrorText="Retry"
         app:buttonText="Login"
+        app:buttonDrawable="@drawable/btn_bg"
         app:buttonColor="@color/blue"
         app:buttonErrorColor="@color/red"
         app:buttonSucessColor="@color/green"
@@ -70,6 +72,6 @@ Animated Material Progress Button with multiple functionality.
 
 ```sh
 dependencies { 
-        implementation 'com.github.smartrk:ProgressButton:1.2' 
+        implementation 'com.github.smartrk:ProgressButton:1.3' 
 }
 ```
