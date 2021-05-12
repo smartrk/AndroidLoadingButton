@@ -39,18 +39,19 @@ open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr
         val view = LayoutInflater.from(context).inflate(R.layout.rk_progress, this, true)
 //        setOnClickListener(this)
 
-        if (buttonImage == null) {
-            backgroungColor?.let {
-                if (it != -1) {
-                    ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
-                }
+        buttonImage?.let {
+            buttonCons?.setImageDrawable(it)
+        }
+
+        backgroungColor?.let {
+            if (it != -1) {
+                ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
+                ImageViewCompat.setImageTintList(buttonCons2, ColorStateList.valueOf(it))
             }
         }
 
 
-        buttonImage?.let {
-            buttonCons?.setImageDrawable(it)
-        }
+
 
         progressColor?.let {
             if (it != -1) {
@@ -196,6 +197,13 @@ open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr
 
 
     fun progressAnimation() {
+        backgroungColor?.let {
+            if (it != -1) {
+                ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
+                ImageViewCompat.setImageTintList(buttonCons2, ColorStateList.valueOf(it))
+            }
+        }
+
         isClicable = false
         mainLay!!.setTransition(R.id.start, R.id.end)
         mainLay!!.transitionToEnd()
@@ -247,15 +255,11 @@ open class RkProgressButton(context: Context, attrs: AttributeSet?, defStyleAttr
             errorImage = getDrawable(context, R.drawable.error_image)
         }
 
-        backgroungColor?.let {
-            if (it != -1) {
-                ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
-            }
-        }
 
         bgErrorColor?.let {
             if (it != -1) {
                 ImageViewCompat.setImageTintList(buttonCons, ColorStateList.valueOf(it))
+                ImageViewCompat.setImageTintList(buttonCons2, ColorStateList.valueOf(it))
             }
         }
 

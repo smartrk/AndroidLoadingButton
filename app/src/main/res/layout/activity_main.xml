@@ -98,7 +98,7 @@
             android:id="@+id/customeDrawableButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:buttonColor="#673AB7"
+            app:buttonColor="#009688"
             app:buttonErrorColor="#F44336"
             app:buttonDrawable="@drawable/btn_bg"
             app:buttonSucessColor="#8BC34A"

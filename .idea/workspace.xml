@@ -11,14 +11,18 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="915a5f37-f8a6-4c58-a0ba-bcda837c3898" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/java/com/rk/progressbutton/RkProgressButton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/layout/rk_progress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/layout/rk_progress.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgressButton/src/main/res/xml/rk_progress_scene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressButton/src/main/res/xml/rk_progress_scene.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +30,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[100.79.101.247:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@100.81.153.61:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -118,6 +122,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -168,6 +173,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -242,13 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618855977000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Button Drawable Support.">
+      <created>1619024589030</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619024589031</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit." />
     <MESSAGE value="Initial Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
+    <MESSAGE value="Button Drawable Support." />
+    <option name="LAST_COMMIT_MESSAGE" value="Button Drawable Support." />
   </component>
   <component name="WindowStateProjectService">
     <state x="158" y="87" key="#PSD" timestamp="1618769697597">
@@ -275,34 +289,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="484" y="126" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1619023562603" />
-    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1618855974844">
+    <state x="198" y="0" key="CommitChangelistDialog2" timestamp="1619024586367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618855974844" />
+    <state x="198" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1619024586367" />
     <state x="421" y="67" key="FileChooserDialogImpl" timestamp="1618855446553">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="67" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618855446553" />
-    <state width="1236" height="328" key="GridCell.Tab.0.bottom" timestamp="1618849787264">
+    <state width="1238" height="156" key="GridCell.Tab.0.bottom" timestamp="1620823641263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="328" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
-    <state width="1236" height="328" key="GridCell.Tab.0.center" timestamp="1618849787264">
+    <state width="1238" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620823641263" />
+    <state width="1238" height="156" key="GridCell.Tab.0.center" timestamp="1620823641263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="328" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
-    <state width="1236" height="328" key="GridCell.Tab.0.left" timestamp="1618849787262">
+    <state width="1238" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620823641263" />
+    <state width="1238" height="156" key="GridCell.Tab.0.left" timestamp="1620823641263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="328" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618849787262" />
-    <state width="1236" height="328" key="GridCell.Tab.0.right" timestamp="1618849787264">
+    <state width="1238" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620823641263" />
+    <state width="1238" height="156" key="GridCell.Tab.0.right" timestamp="1620823641263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="328" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618849787264" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1618855980891">
+    <state width="1238" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620823641263" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619024591461">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618855980891" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619024591461" />
     <state x="455" y="118" key="chooseDestDirectoryDialog" timestamp="1618843179263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -323,5 +337,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="296" y="-8" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1618848751918" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/rk/progressbutton/MainActivity.kt</url>
+          <line>9</line>
+          <properties class="com.rk.progressbutton.MainActivity" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
