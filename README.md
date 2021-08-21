@@ -1,7 +1,7 @@
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/20436225/115594260-2798a580-a2f3-11eb-81a5-fb44768a3622.gif)
 
 
-# Progress Loding Button Android
+# Android Loading Button
 ## 
 
 Animated Progress Loding Button with multiple functionality.
@@ -72,6 +72,6 @@ Animated Progress Loding Button with multiple functionality.
 
 ```sh
 dependencies { 
-        implementation 'com.github.smartrk:ProgressButton:1.3' 
+        implementation 'com.github.smartrk:ProgressButton:1.4' 
 }
 ```
