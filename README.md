@@ -1,7 +1,7 @@
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/20436225/115594260-2798a580-a2f3-11eb-81a5-fb44768a3622.gif)
 
 
-# Android Loading Button
+# Android Animated Progress Button
 ## 
 
 Animated Progress Loding Button with multiple functionality.
